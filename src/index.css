@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bento-bg: #0f172a;
+  --color-bento-card: #1e293b;
+  --color-bento-border: #334155;
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-linear-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent;
+  }
+}
